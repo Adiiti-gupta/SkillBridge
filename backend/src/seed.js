@@ -8,7 +8,7 @@ import Message from './models/Message.js';
 
 dotenv.config();
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/skillswap';
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // Skills pool
 const techSkills = ['JavaScript', 'Python', 'React', 'Node.js', 'MongoDB', 'SQL', 'Java', 'C++', 'Ruby', 'PHP', 'Swift', 'Kotlin', 'TypeScript', 'Vue.js', 'Angular', 'Django', 'Flask', 'Express', 'GraphQL', 'REST API', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'Machine Learning', 'Data Science', 'AI', 'Blockchain', 'Solidity', 'Web3', 'Cybersecurity', 'DevOps', 'Linux', 'Git', 'Unity', 'Unreal Engine', 'Game Development', 'Mobile Development', 'React Native', 'Flutter'];
